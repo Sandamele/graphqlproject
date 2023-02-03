@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_heading_headings",
+  "info": {
+    "displayName": "Heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "end",
+        "center"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5"
+      ]
+    },
+    "font_weight": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "normal",
+        "bold",
+        "bolder"
+      ]
+    }
+  }
+}

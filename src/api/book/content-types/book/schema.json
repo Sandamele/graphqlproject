@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bookname": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "dateReleased": {
+      "type": "date"
+    },
+    "describtion": {
+      "type": "richtext"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "bookUid": {
+      "type": "uid"
+    }
+  }
+}

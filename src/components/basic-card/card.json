@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_basic_card_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.heading"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.text"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

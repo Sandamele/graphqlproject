@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "learnabouts",
+  "info": {
+    "singularName": "learnabout",
+    "pluralName": "learnabouts",
+    "displayName": "learnabout"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "learner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-card.card"
+    }
+  }
+}
